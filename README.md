@@ -39,10 +39,11 @@ python face_blur.py
 
 ```
 ia-projet/
+├── .gitignore               # Fichiers à ignorer par Git
 ├── environment.yml          # Configuration de l'environnement Conda
 ├── face_blur_project.ipynb  # Notebook Jupyter principal
 ├── README.md                # Ce fichier de documentation
-├── __pycache__/             # Cache Python (généré automatiquement)
+├── __pycache__/             # Cache Python (généré automatiquement, ignoré par Git)
 ├── images/                  # Images à traiter
 └── output/
     ├── blurred/            # Images avec visages floutés
